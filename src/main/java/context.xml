@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+<!--   <bean id = "ref" class = "com.wolken.wolkenapp.bean.HarbourBean">
+<constructor-arg value ="Angelia" type ="java.lang.String"></constructor-arg>
+<constructor-arg value ="Pacific" type ="java.lang.String"></constructor-arg>
+<constructor-arg ref="ship"></constructor-arg>
+</bean>
+<bean id = "ship" class ="com.wolken.wolkenapp.bean.ShipsBean">
+<constructor-arg value ="Fatman" type ="java.lang.String"></constructor-arg>
+<constructor-arg value ="Cruise" type ="java.lang.String"></constructor-arg>
+
+</bean> -->
+<context:component-scan base-package="package com.wolken.wolkenapp.bean"></context:component-scan>
+
+
+
+</beans>
